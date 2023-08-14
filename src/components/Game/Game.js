@@ -16,7 +16,7 @@ const Game = () => {
 
 	return (
 		<>
-			<ListOfGuess guesses={guesses}/>
+			<ListOfGuess guesses={guesses} answer={answer}/>
 			<GuessInput guesses={guesses} setGuesses={setGuesses}/>
 		</>
 	);

@@ -5,7 +5,7 @@ const GuessInput = ({ guesses, setGuesses }) => {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		setGuesses([...guesses, word])
+		setGuesses([...guesses, word]);
 		setWord("");
 	}
 
